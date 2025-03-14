@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+}
+
+.glow-text {
+    color: #ff9800;
+    text-shadow: 0px 0px 10px #ff9800;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff9800;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68900;
+}
